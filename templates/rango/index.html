@@ -8,7 +8,26 @@
     <body>
         <h1>Rango says...</h1>
         hello world! <strong>{{ boldmessage }}</strong><br />
-        <a href="/rango/about/">About</a><br />
+        {% if categories %}
+        <ul>
+            {% for cat in categories%}
+            <li><a href="/rango/category/{{ cat.slug }}">{{cat.name}}</a></li>
+            {% endfor %}
+        </ul>
+        {% else %}
+            <strong> There are no present categories.</strong>
+        {% endif %}
+        
+        {% if pages %}
+        <strong>Here are the most visited pages</strong>
+        <ul>
+            {% for page in pages%}
+            <li><a href="{{ page.url }}">{{page.title}}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        
+        <a href="/rango/about/">About</a><br/>
     </body>
 
 </html>
