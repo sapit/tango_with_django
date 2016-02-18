@@ -7,7 +7,7 @@ django.setup()
 from rango.models import Category, Page
 
 
-def populate():
+def populate(): #populates
     python_cat = add_cat('Python',128,64)
 
     add_page(cat=python_cat,
