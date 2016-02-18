@@ -1,0 +1,25 @@
+Question 1:
+
+a) product
+b) the function will return a floating point number
+c) the return statement is used as a result value of a function which can then be passed to a variable or used for some purposes
+
+Question 2:
+
+a) a function prototype is when a function is declared but doesn't have its body written yet
+b) int prototype();ls
+c) prototype - at the top of the code under the header files
+   definiton - under the main method
+   
+Question 3:
+
+a) float *ptr;
+
+b) float some_float=4.14;
+   float *ptr=&some_float;
+   
+Question 4:
+
+a) & gets the address of a variable
+   * takes the value of a variable, treats it as an address and gets the value stored in that address
+b) defines a pointer.
