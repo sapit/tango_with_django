@@ -1,11 +1,10 @@
 #include "simulation.h"
-
 /**
  * Returns the relitivistic mass of an object given its rest mass and velocity
  */
 double rel_mass(double rest_mass, double velocity)
 {
-	return rest_mass / ( sqrt( 1 - ( (velocity * velocity) / (C * C) ) ) );
+	return rest_mass / (sqrt(1-((velocity * velocity)/(C * C))));
 }
 
 

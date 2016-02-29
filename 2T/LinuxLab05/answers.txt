@@ -21,9 +21,21 @@ B) git log --oneline
 C) the code generates random numbers, then presents them via a histogram and, at the end, prints the highest value in the histogram
 
 D)
-    
-E) 
 
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	answers.txt
+	histogram
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+E) 
+git pull
 git status
 git add -A :/
 git status
@@ -45,18 +57,23 @@ git checkout -b myfeature
 G) I already moved
 
 H) 
+commit 6a4aa158133aa8170c0df73fc38ee1f040cf0d8c
+Author: sapit <zdravkozzz13@gmail.com>
+Date:   Mon Feb 29 19:57:42 2016 +0000
+
+    made changes(just a comment really
 
 ------------------
     QUESTION 2
 ------------------
 
-A)
+A) $@ - the name of the target
 
-B)
+B) $^ - list of the given prerequisites
 
-C)
+C) $< - just the first prerequisite
 
-D)
+D) $? - the newer prerequisites than the target, which should be compiled first
 
 ------------------
     QUESTION 3
