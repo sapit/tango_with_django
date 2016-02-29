@@ -24,9 +24,25 @@ D)
     
 E) 
 
-F) 
+git status
+git add -A :/
+git status
+git commit "very appropriate message"
+git push
 
-G) 
+commit 75405b457e3d0ad2c17145f21cd4c0a88060d0b4
+Author: sapit <zdravkozzz13@gmail.com>
+Date:   Mon Feb 29 19:51:49 2016 +0000
+
+    very appropriate message
+
+F) 
+git checkout -b myfeature
+
+  master
+* myfeature
+
+G) I already moved
 
 H) 
 
@@ -59,4 +75,3 @@ E)
 F) 
     
 G)
-    
