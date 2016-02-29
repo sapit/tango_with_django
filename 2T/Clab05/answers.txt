@@ -1,0 +1,34 @@
+Question 1:
+    preprocessing
+    
+Question 2:
+    header files - <> will look for files in system defined locations, "" will look for files in the same location as this file
+    
+Question 3:
+    define statement during the preprocessing just literally replaces the text on the left(without spaces) with all the text until the end of the line
+    const float var is a float variable(in a container) which cannot be changed
+    
+Question 4:
+    .o contains object code
+    this is after compilation stage and before linking
+    
+Question 5:
+    #include<stdio.h>
+    #include<time.h>
+    
+    int main(void)
+    {
+        clock_t start,end;
+        double time_used;
+        start=clock();
+        long i;
+        for(i=0; i<1000000000;i++)
+        {
+            continue;
+        }
+        end=clock();
+        time_used = (double)end-start;
+        printf(" %f", time_used);
+        return 0;
+    }
+
