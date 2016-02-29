@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------------
+    LAB 05                                  GNU Make and Regular Expressions
+--------------------------------------------------------------------------------
+
+    Answer all questions for Lab05 in this file. Questions or tasks which 
+    require you to edit another file have the name of the file already 
+    entered for you.
+
+--------------------------------------------------------------------------------
+    QUESTIONS
+--------------------------------------------------------------------------------
+
+------------------
+    QUESTION 1 
+------------------
+
+A) git clone https://bitbucket.org/glaphysp2t/lab5-example
+
+B) git log --oneline
+
+C) the code generates random numbers, then presents them via a histogram and, at the end, prints the highest value in the histogram
+
+D)
+    
+E) 
+
+F) 
+
+G) 
+
+H) 
+
+------------------
+    QUESTION 2
+------------------
+
+A)
+
+B)
+
+C)
+
+D)
+
+------------------
+    QUESTION 3
+------------------
+
+A)
+
+B)
+
+C)
+
+D)
+
+E)
+    
+F) 
+    
+G)
+    
