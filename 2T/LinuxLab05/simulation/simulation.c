@@ -1,10 +1,12 @@
 #include "simulation.h"
+
+
 /**
  * Returns the relitivistic mass of an object given its rest mass and velocity
  */
 double rel_mass(double rest_mass, double velocity)
 {
-	return rest_mass / (sqrt(1-((velocity * velocity)/(C * C))));
+	return rest_mass / ( sqrt( 1 - ( (velocity * velocity) / (C * C) ) ) );
 }
 
 
@@ -13,10 +15,9 @@ double rel_mass(double rest_mass, double velocity)
  */
 double kinetic_energy(double mass, double velocity) 
 {
+  return(0.5) * mass * velocity * velocity;
     /*
      * E_k = 1/2 * m * v^2
      */
-
-     return 0.0;
 }
 

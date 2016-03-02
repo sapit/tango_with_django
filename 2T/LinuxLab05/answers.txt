@@ -78,7 +78,7 @@ D) $? - the newer prerequisites than the target, which should be compiled first
 ------------------
     QUESTION 3
 ------------------
-
+A-E are in the code
 A)
 
 B)
@@ -90,5 +90,8 @@ D)
 E)
     
 F) 
-    
+    The math library is needed.
+	The function rel_mass requires it since it wants to use the sqrt(..) method
 G)
+    -g - debug
+	-O2 - optimizations
