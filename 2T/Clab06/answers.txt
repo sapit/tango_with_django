@@ -1,0 +1,4 @@
+1. and 2. are in the code
+
+3. By seeding a PRNG we know where the sequence started, therefore we can always recreate it using the same algorithm and the same seed
+
